@@ -1,0 +1,12 @@
+#Checks whether a number is Odd or Even and > or < 50
+
+n = int(input("Enter a number" )
+
+Odd_or_Even = "Even" if n % 2 == 0 else "Odd"
+
+if n < 50:
+  tens = "Lower than 50"
+else: 
+  tens = "Higher than 50"
+
+print(f"Your number is {Odd_or_Even} and {tens}")
