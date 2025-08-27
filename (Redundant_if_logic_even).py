@@ -5,13 +5,14 @@
 
 n = int(input("Enter number: "))
 
-if n % 2 == 0 and n >=50:
-    print("Even and Higher than 50")
-elif n % 2 == 0 and n <= 50:
-    print("Even and Higher than 50")
-elif n % 2 != 0 and n >= 50:       
-    print("Odd but lower than 50")
-elif n % 2 != 0 and n <= 50:
-    print("Odd but ")    
-     
+if n % 2 == 0:
+    if n >= 50:
+        print("Even and higher than 50")
+    else:
+        print("Even and lower than 50")
+else:
+    if n >= 50:
+        print("Odd and higher than 50")
+    else:
+        print("Odd and lower than 50")
     
