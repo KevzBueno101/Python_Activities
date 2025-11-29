@@ -2,7 +2,7 @@ from scipy.stats import t
 import numpy as np
 
 alpha = 0.05
-n = 100  # sample size
+n = 72  # sample size
 df = n - 2 #degrees of freedom
 
 t_crit = t.ppf(1 - alpha/2, df) # critical value
